@@ -1,0 +1,199 @@
+{
+
+   
+  "products": [
+    {
+      "id": 1,
+      "name": "Modern Chair",
+      "descripe": "Comfortable chair with a modern design for living room",
+      "quantity": 12,
+      "price": 1200,
+      "imgSrc": "/photos/chair1.png",
+      "discount": 10,
+      "category": "Chairs"
+    },
+    {
+      "id": 2,
+      "name": "Office Chair",
+      "descripe": "Adjustable and comfortable chair for office work",
+      "quantity": 8,
+      "price": 1500,
+      "imgSrc": "/photos/chair2.png",
+      "discount": 12,
+      "category": "Chairs"
+    },
+    {
+      "id": 3,
+      "name": "Wooden Chair",
+      "descripe": "Classic wooden chair suitable for dining room",
+      "quantity": 20,
+      "price": 900,
+      "imgSrc": "/photos/chair3.png",
+      "discount": 8,
+      "category": "Chairs"
+    },
+    {
+      "id": 4,
+      "name": "Leather Chair",
+      "descripe": "Luxury leather chair for office",
+      "quantity": 6,
+      "price": 2200,
+      "imgSrc": "/photos/chair4.png",
+      "discount": 15,
+      "category": "Chairs"
+    },
+    {
+      "id": 5,
+      "name": "Kids Chair",
+      "descripe": "Small and strong chair for kids",
+      "quantity": 15,
+      "price": 600,
+      "imgSrc": "/photos/chair5.png",
+      "discount": 5,
+      "category": "Chairs"
+    },
+    {
+      "id": 6,
+      "name": "Recliner Chair",
+      "descripe": "Relaxing recliner chair for reading and resting",
+      "quantity": 10,
+      "price": 2000,
+      "imgSrc": "/photos/chair6.png",
+      "discount": 20,
+      "category": "Chairs"
+    },
+    {
+      "id": 7,
+      "name": "Coffee Table",
+      "descripe": "Elegant coffee table for living room",
+      "quantity": 7,
+      "price": 1800,
+      "imgSrc": "/photos/table1.jpg",
+      "discount": 10,
+      "category": "Tables"
+    },
+    {
+      "id": 8,
+      "name": "Dining Table",
+      "descripe": "Wooden dining table for 6 people",
+      "quantity": 3,
+      "price": 4000,
+      "imgSrc": "/photos/table2.jpg",
+      "discount": 12,
+      "category": "Tables"
+    },
+    {
+      "id": 9,
+      "name": "Study Desk",
+      "descripe": "Practical wooden desk for studying and working",
+      "quantity": 5,
+      "price": 2500,
+      "imgSrc": "/photos/desk1.jpg",
+      "discount": 18,
+      "category": "Desks"
+    },
+    {
+      "id": 10,
+      "name": "Computer Desk",
+      "descripe": "Desk designed for computers and devices",
+      "quantity": 4,
+      "price": 2800,
+      "imgSrc": "/photos/desk2.jpg",
+      "discount": 15,
+      "category": "Desks"
+    },
+    {
+      "id": 11,
+      "name": "Wooden Bed",
+      "descripe": "Strong wooden bed with simple design",
+      "quantity": 3,
+      "price": 5000,
+      "imgSrc": "/photos/bed1.jpg",
+      "discount": 20,
+      "category": "Beds"
+    },
+    {
+      "id": 12,
+      "name": "Modern Bed",
+      "descripe": "Comfortable bed with padded headboard",
+      "quantity": 2,
+      "price": 6000,
+      "imgSrc": "/photos/bed2.jpg",
+      "discount": 15,
+      "category": "Beds"
+    },
+    {
+      "id": 13,
+      "name": "Modern Sofa",
+      "descripe": "Comfortable sofa for 3 people",
+      "quantity": 4,
+      "price": 4500,
+      "imgSrc": "/photos/sofa1.jpg",
+      "discount": 15,
+      "category": "Sofas"
+    },
+    {
+      "id": 14,
+      "name": "L-Shape Sofa",
+      "descripe": "Large L-shaped sofa for living room",
+      "quantity": 2,
+      "price": 7500,
+      "imgSrc": "/photos/sofa2.jpg",
+      "discount": 18,
+      "category": "Sofas"
+    },
+    {
+      "id": 15,
+      "name": "Wardrobe",
+      "descripe": "Wardrobe with 4 doors and shelves",
+      "quantity": 2,
+      "price": 5500,
+      "imgSrc": "/photos/wardrobe1.jpg",
+      "discount": 20,
+      "category": "Wardrobes"
+    },
+    {
+      "id": 16,
+      "name": "Nightstand",
+      "descripe": "Small nightstand with 2 drawers",
+      "quantity": 6,
+      "price": 900,
+      "imgSrc": "/photos/nightstand1.jpg",
+      "discount": 10,
+      "category": "Wardrobes"
+    }
+  ]
+
+
+,
+    "offers": [
+  {
+    "id": 11,
+    "name": "Complete Living Room Set",
+    "descripe": "Elegant living room set including a 3-seater sofa, single chair, and side table",
+    "quantity": 5,
+    "price": 8500,
+    "imgSrc": "/photos/living-room-set.jpg",
+    "discount": 15
+  },
+  {
+    "id": 12,
+    "name": "Compact Dining Set",
+    "descripe": "Round dining table with 4 modern and comfortable chairs",
+    "quantity": 7,
+    "price": 6000,
+    "imgSrc": "/photos/dining-set.jpg",
+    "discount": 10
+  },
+  {
+    "id": 13,
+    "name": "Home Office Corner",
+    "descripe": "Comfortable work desk with office chair and storage shelf in a modern design",
+    "quantity": 4,
+    "price": 4800,
+    "imgSrc": "/photos/office-corner.jpg",
+    "discount": 12
+  }
+]
+
+}

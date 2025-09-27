@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Ahmed Ali",
+    "job": "Software Engineer",
+    "text": "I had an absolutely wonderful experience! The service was not only fast but also very reliable. The support team was patient and guided me through every step, which made the whole process smooth and stress-free. I would definitely recommend this to anyone looking for quality and professionalism.",
+    "imgSrc": "/photos/logo-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sara Mohamed",
+    "job": "Marketing Specialist",
+    "text": "I’m really impressed with how everything turned out. The product exceeded my expectations in terms of both quality and usability. Delivery was on time, and the customer service went the extra mile to ensure I was satisfied. I can honestly say this is one of the best experiences I’ve had.",
+    "imgSrc": "/photos/logo-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Omar Hussein",
+    "job": "Business Consultant",
+    "text": "The decision to purchase from here was one of the best choices I’ve made. The pricing was very fair for the value I received, and the attention to detail really stood out. It’s rare to find such dedication to customers these days, and I truly appreciate it.",
+    "imgSrc": "/photos/logo-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Mona Samir",
+    "job": "Graphic Designer",
+    "text": "Everything arrived earlier than expected and in perfect condition. The packaging was secure, and the overall presentation showed a lot of care. I’ve already recommended this place to several of my friends, and they’ve had similarly positive experiences.",
+    "imgSrc": "/photos/logo-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "John Smith",
+    "job": "Entrepreneur",
+    "text": "From start to finish, the process was seamless. The website was easy to navigate, checkout was straightforward, and the delivery was prompt. The product itself works flawlessly and looks exactly as described. This level of consistency is rare, and I will definitely return as a customer.",
+    "imgSrc": "/photos/logo-5.png"
+  },
+  {
+    "id": 6,
+    "name": "Emily Johnson",
+    "job": "UX/UI Designer",
+    "text": "I was blown away by how professional and efficient everything was handled. The staff clearly care about customer satisfaction and go above and beyond to meet expectations. The product’s durability and design are outstanding. I’m already planning my next order!",
+    "imgSrc": "/photos/logo-6.jpg"
+  }
+]
