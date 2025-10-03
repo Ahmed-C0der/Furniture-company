@@ -29,9 +29,9 @@ export default function ContactUs() {
         </div>
 
         <div className="socials">
-          <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
-          <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
-          <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+          <button><FontAwesomeIcon icon={faFacebook} /></button>
+          <button><FontAwesomeIcon icon={faTwitter} /></button>
+          <button><FontAwesomeIcon icon={faInstagram} /></button>
         </div>
       </div>
     </section>
