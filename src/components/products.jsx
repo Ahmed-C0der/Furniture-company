@@ -115,7 +115,7 @@ export default function Productes({
 
         <div className="container">
           {/* ✅ category buttons */}
-          {title === "Our Products" && (
+          {title === "Our Products" && fileName==="products" && (
             <div className="sort">
               {[
                 "All",

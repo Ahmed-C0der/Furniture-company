@@ -6,7 +6,7 @@ import Testimonials from './components/testimonials';
 import WhyWe from './components/WhyWe';
 import ContactUs from './components/Contact';
 import Footer from './components/Footer';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef,  } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { Routes, Route } from "react-router-dom";
@@ -45,7 +45,6 @@ function App() {
     { threshold: 0.2 }
   );
 
-  const hiddenElements = document.querySelectorAll(".hidden-section");
   const All = document.querySelectorAll("body > #root > .App > *")
 
   All.forEach((el) => observer.observe(el));
@@ -56,35 +55,7 @@ function App() {
 useEffect(() => {
   const cleanup = runObserverCode();
   return cleanup;
-}, []); 
-function HideEffect (){
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.remove("hidden-section");
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.2 }
-  );
-
-  const hiddenElements = document.querySelectorAll(".hidden-section");
-  const All = document.querySelectorAll("body > #root > .App > *")
-
-  // hiddenElements.forEach((el) => observer.observe(el));
-  All.forEach((el) => observer.observe(el));
-
-  return () => observer.disconnect(); // cleanup
-}
-useEffect(() => {
-  // setTimeout(()=>{
-  // },1000)
-  HideEffect()
-  const cleanup = HideEffect()
-  
-}, []);
+}, [location]); 
 
 
   return (
@@ -122,8 +93,8 @@ useEffect(() => {
         <Route path="/" element={
           <>
             <HeroSection/>
-            <Productes HideEffect={HideEffect} id="special-offers" title={"Special Offers"} fileName="offers" />
-            <Productes HideEffect={HideEffect} id="products" title={"Our Products"} fileName="products" mainBg={true} />
+            <Productes id="special-offers" title={"Special Offers"} fileName="offers" />
+            <Productes id="products" title={"Our Products"} fileName="products" mainBg={true} />
             <Testimonials />
             <WhyWe />
             <ContactUs />
