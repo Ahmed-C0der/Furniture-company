@@ -16,7 +16,7 @@ export default function ProductDetails() {
         setDetails(filtered);
       })
       .catch((err) => console.error("Error loading product details:", err));
-  }, [id]);
+  }, [id , TheName]);
 
   if (details.length === 0) {
     return <h1>We Are Loading the Data ...</h1>;
