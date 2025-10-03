@@ -1,20 +1,6 @@
-// import { useState , useEffect } from "react";
+
 export default function WhyWe() {
-//     const [width, setWidth] = useState(400);
-//     useEffect(() => {
-//     const handleResize = () => {
-//       if (window.innerWidth <= 576) {
-//         setWidth(250);
-//       } else if (window.innerWidth <= 768) {
-//         setWidth(300);
-//       } else {
-//         setWidth(400);
-//       }
-//     };
-//     handleResize();
-//     window.addEventListener("resize", handleResize);
-//     return () => window.removeEventListener("resize", handleResize);
-//   }, []);
+
     return (
     <div className="why-we hidden-section padding-section bg-sec" id="whywe" >
         <div className=" ">
